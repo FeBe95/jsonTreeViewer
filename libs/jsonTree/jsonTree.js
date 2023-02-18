@@ -223,9 +223,9 @@ var jsonTree = (function() {
             template = function(label, val) {
                 var str = '\
                     <span class="jsontree_label-wrapper">\
-                        <span class="jsontree_label">"' +
+                        <span class="jsontree_label">' +
                             label +
-                        '"</span> : \
+                        '</span> : \
                     </span>\
                     <span class="jsontree_value-wrapper">\
                         <span class="jsontree_value jsontree_value_' + self.type + '">' +
