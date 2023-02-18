@@ -457,8 +457,8 @@ var jsonTree = (function() {
                         <span class="jsontree_label-wrapper">\
                             <span class="jsontree_label">' +
                                 '<span class="jsontree_expand-button"></span>' +
-                                '"' + label +
-                            '"</span> : \
+                                label +
+                            '</span> : \
                         </span>' + str;
                 }
     
